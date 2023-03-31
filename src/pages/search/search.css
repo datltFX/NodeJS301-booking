@@ -1,0 +1,21 @@
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.searchListContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.searchWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+}
+.searchResult {
+  flex: 3;
+}

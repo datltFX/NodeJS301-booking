@@ -1,0 +1,52 @@
+.trans {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.transTable {
+  border: 1px lightgray solid;
+  text-align: left;
+}
+
+.transTable > caption {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.transTable > thead > tr > th {
+  height: 30px;
+  min-width: 30px;
+  padding: 10px;
+  color: white;
+  background-color: #32a4c1;
+}
+
+.transTable > tbody > tr > td {
+  padding: 10px;
+  font-weight: 500;
+}
+
+.tableRow > td {
+  margin: auto;
+  background-color: #c6c2c286 !important;
+}
+.transTable > tbody > tr > td > span {
+  padding: 5px;
+  border-radius: 5px;
+  color: #0a8a09;
+}
+
+.booked > span {
+  background-color: #f69685 !important;
+}
+.checkin > span {
+  background-color: #39d139 !important;
+}
+.checkout > span {
+  background-color: #d3d0f2 !important;
+}

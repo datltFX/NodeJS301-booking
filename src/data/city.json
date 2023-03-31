@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Ha Noi",
+    "image": "./images/hanoi.jpg"
+  },
+  {
+    "name": "Ho Chi Minh",
+    "image": "./images/hcm.jpg"
+  },
+  {
+    "name": "Da Nang",
+    "image": "./images/danang.jpg"
+  }
+]

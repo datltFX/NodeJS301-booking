@@ -1,0 +1,71 @@
+.popupSearch {
+  flex: 1;
+  background-color: #febb02;
+  padding: 10px;
+  border-radius: 10px;
+  position: sticky;
+  top: 10px;
+  height: max-content;
+}
+
+.ppTitle {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.ppItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.ppItem > label {
+  font-size: 12px;
+}
+
+.ppItem > input {
+  height: 30px;
+  border: none;
+  padding: 5px;
+}
+.ppItem > span {
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ppOptions {
+  padding: 10px;
+}
+
+.ppOptionItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 12px;
+}
+
+.ppOptionInput {
+  width: 50px;
+}
+
+.popupSearch > button {
+  padding: 10px;
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
+.popupSearch > button:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.2s;
+}

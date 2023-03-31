@@ -1,0 +1,18 @@
+.navBarList {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.navBarListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navBarListItem.active {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
